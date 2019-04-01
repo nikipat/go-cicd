@@ -9,6 +9,7 @@ import (
 // HandlerFunc Sample documentation for HandlerFunc
 func HandlerFunc(w http.ResponseWriter, r *http.Request) {
 	fmt.Fprintf(w, "\nRelease 1")
+	fmt.Fprintf(w, "\nRelease 2")
 }
 
 func main() {
