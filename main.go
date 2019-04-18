@@ -8,7 +8,7 @@ import (
 
 // HandlerFunc1 Sample documentation for HandlerFunc
 func HandlerFunc1(w http.ResponseWriter, r *http.Request) {
-	fmt.Fprintf(w, "\nRelease 9")
+	fmt.Fprintf(w, "\nRelease 0")
 }
 
 // //Calculate just calculates
