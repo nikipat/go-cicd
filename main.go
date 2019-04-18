@@ -11,6 +11,7 @@ func HandlerFunc1(w http.ResponseWriter, r *http.Request) {
 	fmt.Fprintf(w, "\nRelease 1")
 	fmt.Fprintf(w, "\nRelease 2 ")
 	fmt.Fprintf(w, "\nRelease 3.1 ")
+	fmt.Fprintf(w, "\nRelease 4")
 }
 
 // //Calculate just calculates
