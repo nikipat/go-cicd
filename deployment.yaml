@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: go-cicd
-        image: 107995894928.dkr.ecr.us-west-2.amazonaws.com/go-cicd:latest
+        image: 107995894928.dkr.ecr.us-west-2.amazonaws.com/go-cicd:v45
         resources:
           limits:
             memory: "128Mi"
